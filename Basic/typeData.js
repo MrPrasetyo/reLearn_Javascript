@@ -5,4 +5,13 @@ const dataNull = null;
 const dataBoolean = true;
 let dataUndefined;
 
-console.log(dataBoolean) // put any of Variabel above to show in console log how each type of data shown in log.
+let dataObject = {
+    name : "Dwi",
+    age : 24,
+}
+
+let dataFunction =  function showFunction() {
+    console.log("This is an Function type of Data")
+}
+
+console.log(dataFunction) // put any of Variabel above to show in console log how each type of data shown in log.
