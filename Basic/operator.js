@@ -4,6 +4,10 @@ let number2 = 30;
 console.log((number1 + number2) - number1 * number2 / 2) // whatever operator inside () it will always be a priority, then times by, divided by, plus then minus
 
 console.log(number1 += 5) // (Add and assign)
+console.log(number1 -= 10) // (Minus and assign)
+console.log(number1 *= 5) // (Times by and assign)
+console.log(number1 /= 5) // (Divided and assign)
+console.log(number1 %= 5) // (Modulo and assign)
 
 console.log(number1 == "25") // (Same as) shows True because it just compare the value
 console.log(number1 === "25") // (Same as - Strict) shows False because it compare the type of data too, not just value
